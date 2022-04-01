@@ -109,6 +109,7 @@ const theme = {
   colorText: "#81AFDD",
   colorSubText: "#FF8A71",
   fontFamily: "'Manrope', sans-serif",
+  primary: "#ff4820",
 };
 
 export default theme;
