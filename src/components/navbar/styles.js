@@ -59,10 +59,11 @@ export const Wrapper = styled.div`
     }
 
     .navbar-sign__signup {
-      padding: 0.5rem 1rem;
+      padding: 16px 24px;
       color: #fff;
       font-family: ${({ theme }) => theme.fontFamily};
       font-size: 18px;
+      font-weight: bold;
       border: 0;
       outline: none;
 
