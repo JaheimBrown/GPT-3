@@ -8,10 +8,7 @@ const Feature = ({ title, text }) => {
         <div className="bar" />
         {title}
       </div>
-      <div className="wgpt3-feature__text">
-        <div className="bar" />
-        {text}
-      </div>
+      <div className="wgpt3-feature__text">{text}</div>
     </Wrapper>
   );
 };
