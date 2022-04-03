@@ -4,7 +4,6 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  align-items: center;
   flex: 1;
 
   .wgpt3-feature__heading {
