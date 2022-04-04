@@ -22,11 +22,12 @@ const Blog = () => {
             <Article {...firstBlog} />
           </div>
           <div className="gpt3__blog-container_blogs-groupB">
-            {blogs.map(item => (
+            {blogs.map((item, index) => (
               <Article
                 title={item.title}
                 imgUrl={item.imgUrl}
                 date={item.date}
+                key={item.title + index}
               />
             ))}
           </div>
