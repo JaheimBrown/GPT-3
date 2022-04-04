@@ -5,7 +5,7 @@ import possibility from "../../assets/possibility.png";
 
 const Possibility = () => {
   return (
-    <Wrapper className="section__padding">
+    <Wrapper className="section__padding" id="possibility">
       <div className="possibilities__image-container">
         <img src={possibility} alt="possibility" />
       </div>

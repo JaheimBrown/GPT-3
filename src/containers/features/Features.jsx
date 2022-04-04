@@ -24,7 +24,7 @@ const data = [
 
 const Features = () => {
   return (
-    <Wrapper className="section__padding">
+    <Wrapper className="section__padding" id="features">
       <div className="gpt3-heading ">
         <h1 className="gradient__text">
           The Future is Now and You Just Need To Realize It. Step into Future

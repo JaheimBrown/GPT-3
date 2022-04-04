@@ -8,7 +8,7 @@ import { firstBlog, blogs } from "./imports";
 
 const Blog = () => {
   return (
-    <Wrapper className="section__padding">
+    <Wrapper className="section__padding" id="blog">
       <div className="gpt3__blog-container">
         <div className="gpt3__blog-heading">
           <h2 className="gradient__text">
